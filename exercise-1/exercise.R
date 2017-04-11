@@ -2,15 +2,16 @@
 
 # Create a vector of the number of points the Seahawks scored the first 4 games of last season
 # Hint: (google "Seahawks scores 2016")
+hawksscore <- c(12,3,37,27)
 
 # Create a vector of the number of points the Seahawks have allowed to be scored against them in the first 4 games
-
+hawksgaveup <- c(10,9,18,17)
 
 # Combine your two vectors into a dataframe
-
+my.dataframe <- data.frame(hawksscore,hawksgaveup)
 
 # Create a new column "diff" that is the difference in points
-
+my.dataframe
 
 # Create a new column "won" which is TRUE if the Seahawks wom
 
